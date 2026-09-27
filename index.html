@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHR5VPJBQ3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZHR5VPJBQ3');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PR Sudheer Kumar & Co | Advocates & Legal Advisors</title>
   <meta name="description" content="PR Sudheer Kumar & Co - Advocates & Legal Advisors practicing before the Supreme Court of India, High Court of Andhra Pradesh, High Court for Telangana, and District Courts in Delhi, Hyderabad, Kurnool, Vijayawada, and Ananthapur.">
   
-  <!-- Google Fonts: Cormorant Garamond for elegant legal serif typography & Inter for crisp UI controls -->
+  <!-- Google Fonts: Cormorant Garamond for elegant legal serif typography, Inter for crisp UI controls & Cinzel for clean Roman lining digits -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="canonical" href="/">
 </head>
 <body>
 
@@ -19,9 +29,12 @@
   <header class="site-header" id="site-header">
     <div class="header-inner">
       <nav class="main-nav" aria-label="Main Navigation">
-        <a href="services.html" class="nav-link" id="nav-services">Services</a>
-        <a href="about.html" class="nav-link" id="nav-about">About</a>
-        <a href="contact.html" class="nav-link" id="nav-contact">Contact</a>
+        <a href="/" class="nav-link active" id="nav-home" aria-current="page">Home</a>
+        <a href="/locations/" class="nav-link" id="nav-locations">Locations</a>
+        <a href="/legal-services/" class="nav-link" id="nav-services">Legal Services</a>
+        <a href="/about/" class="nav-link" id="nav-about">About</a>
+        <a href="/legal-blog/" class="nav-link" id="nav-blog">Legal Blog</a>
+        <a href="/contact/" class="nav-link" id="nav-contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -33,7 +46,7 @@
       <div class="hero-container">
         <div class="hero-brand">
           <img 
-            src="public/LawOffice.png" 
+            src="/public/LawOffice.png" 
             alt="PR Sudheer Kumar & Co - Advocates & Legal Advisors. Delhi, Hyderabad, Kurnool, Vijayawada, Ananthapur" 
             class="hero-logo-img"
             id="hero-logo"
@@ -43,7 +56,7 @@
 
         <!-- Practice Areas Pill Button -->
         <div class="hero-cta-wrapper">
-          <a href="practice-areas.html" class="pill-btn practice-btn" id="open-practice-modal">
+          <a href="/practice-areas/" class="pill-btn practice-btn" id="open-practice-modal">
             Practice areas
           </a>
         </div>
@@ -54,7 +67,7 @@
     <section class="courts-section" id="courts">
       <div class="courts-container">
         <img 
-          src="public/Courts.png" 
+          src="/public/Courts.png" 
           alt="Supreme Court of India, High Court of Andhra Pradesh, High Court for the State of Telangana" 
           class="courts-img"
           id="courts-banner"
@@ -92,7 +105,7 @@
           <h2 class="footer-heading">PR SUDHEER KUMAR &amp; Co (Law Offices)</h2>
           
           <address class="footer-address">
-            1506, 15th Floor, Shalom Vasavi Sky City, Gachibowli Circle, Telecom Nagar, Gachibowli, Hyderabad, Telangana 500032
+            1506, 15th Floor,Shalom Vasavi Sky City, Gachibowli Circle, Telecom Nagar, Gachibowli, Hyderabad, Telangana 500032
           </address>
 
           <div class="footer-contacts">
@@ -117,7 +130,7 @@
               id="whatsapp-cta"
             >
               <img 
-                src="public/whatsapp chat logo.png" 
+                src="/public/whatsapp chat logo.png" 
                 alt="Chat on WhatsApp" 
                 class="whatsapp-chat-img" 
               />
@@ -126,26 +139,12 @@
         </div>
 
       </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 PR &amp; Co (Law Offices). All rights reserved.</p>
+      </div>
     </div>
 
-    <!-- Pause/Play Ambient Particle Animation Button (Bottom Right) -->
-    <button 
-      type="button" 
-      class="pause-toggle-btn" 
-      id="pause-animation-toggle" 
-      aria-label="Pause background animation" 
-      title="Pause animation"
-    >
-      <span class="pause-icon" aria-hidden="true">
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </span>
-      <span class="play-icon" aria-hidden="true" style="display: none;">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-          <polygon points="6,4 20,12 6,20" />
-        </svg>
-      </span>
-    </button>
   </footer>
 
   <!-- Practice Areas Modal -->
@@ -156,7 +155,7 @@
       
       <div class="modal-header">
         <div class="modal-badge-icon">
-          <img src="public/Gavel.png" alt="" class="modal-icon-img" />
+          <img src="/public/Gavel.png" alt="" class="modal-icon-img" />
         </div>
         <h2 id="modal-practice-title" class="modal-title">Practice Areas &amp; Legal Services</h2>
         <p class="modal-subtitle">Dedicated Advocacy Across Supreme Court of India, High Courts &amp; Specialized Tribunals</p>
@@ -165,7 +164,7 @@
       <div class="practice-grid">
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Weighing Scale.png" alt="" />
+            <img src="/public/Weighing Scale.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Constitutional &amp; Appellate Litigation</h3>
@@ -175,7 +174,7 @@
 
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Law Goddes.png" alt="" />
+            <img src="/public/Law Goddes.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Civil &amp; Commercial Law</h3>
@@ -185,7 +184,7 @@
 
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Gavel.png" alt="" />
+            <img src="/public/Gavel.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Criminal Trial &amp; Defense</h3>
@@ -195,7 +194,7 @@
 
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Weighing Scale.png" alt="" />
+            <img src="/public/Weighing Scale.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Corporate &amp; Regulatory Advisory</h3>
@@ -205,7 +204,7 @@
 
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Law Goddes.png" alt="" />
+            <img src="/public/Law Goddes.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Matrimonial &amp; Family Disputes</h3>
@@ -215,7 +214,7 @@
 
         <div class="practice-item">
           <div class="practice-item-icon">
-            <img src="public/Gavel.png" alt="" />
+            <img src="/public/Gavel.png" alt="" />
           </div>
           <div class="practice-item-content">
             <h3>Revenue, Land &amp; Local Laws</h3>
@@ -226,7 +225,7 @@
 
       <div class="modal-footer-action">
         <a href="https://wa.me/919152888999?text=Hello%2C%20I%20need%20legal%20consultation%20regarding%20a%20matter." target="_blank" rel="noopener noreferrer" class="whatsapp-img-link">
-          <img src="public/whatsapp chat logo.png" alt="Chat on WhatsApp" class="whatsapp-chat-img" />
+          <img src="/public/whatsapp chat logo.png" alt="Chat on WhatsApp" class="whatsapp-chat-img" />
         </a>
       </div>
     </div>
@@ -261,6 +260,6 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 </body>
 </html>

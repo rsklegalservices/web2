@@ -185,17 +185,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const drawerFooter = document.createElement('div');
     drawerFooter.className = 'mobile-drawer-footer';
     drawerFooter.innerHTML = `
-      <a href="tel:+919989025114" class="mobile-drawer-contact-item">
+      <a href="tel:+919152888999" class="mobile-drawer-contact-item">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        <span>+91 99890 25114</span>
+        <span>+91 91 52 888 999</span>
       </a>
-      <a href="mailto:contact@prsudheerkumar.com" class="mobile-drawer-contact-item">
+      <a href="mailto:rsklegalservices@gmail.com" class="mobile-drawer-contact-item">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-        <span>contact@prsudheerkumar.com</span>
+        <span>rsklegalservices@gmail.com</span>
       </a>
-      <a href="https://wa.me/919989025114" target="_blank" rel="noopener noreferrer" class="mobile-drawer-whatsapp">
+      <a href="https://wa.me/919152888999?text=Hello%20PR%20Sudheer%20Kumar%20%26%20Co%2C%20I%20would%20like%20to%20inquire%20about%20legal%20services." target="_blank" rel="noopener noreferrer" class="mobile-drawer-whatsapp">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.17 8.17 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24z"/></svg>
-        <span>WhatsApp</span>
+        <span>Chat on WhatsApp</span>
       </a>
     `;
     drawer.appendChild(drawerFooter);
